@@ -1,0 +1,96 @@
+.collection-wrapper {
+  max-width: 743px;
+  margin: 0 auto;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  
+.collection-wrapper .collection-bottom a {
+    background: url(images/pk-odessa/door-shadow-big.png) center bottom no-repeat;
+    padding: 0 0 12px 0;
+    display: block;
+}
+
+.collection-wrapper .collection-bottom a img {
+  max-width: 190px; }
+
+.collection-wrapper .collection-top {
+  border-top: 2px solid #7EA600;
+  border-bottom: 2px solid #7EA600; }
+
+.collection-wrapper .collection-top p {
+  text-align: center; }
+
+.collection-wrapper .collection-top a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #7EA600;
+  font-weight: bold;
+  font-size: 18px;
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+  
+.collection-wrapper .collection-top a:hover {
+    text-decoration: underline;
+}
+
+.collection-wrapper .collection-bottom {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  position: relative; }
+
+.collection-wrapper .collection-bottom::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: calc(50% - 11px);
+  left: -webkit-calc(50% - 11px);
+  top: -11px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #AC170E;
+  background: orangered;
+  box-shadow: 0 2px 4px  #292825;
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out; }
+
+.collection-wrapper .collectin-link:hover .collection-bottom::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: calc(50% - 11px);
+  left: -webkit-calc(50% - 11px);
+  top: -11px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #AC170E;
+  background: green;
+  box-shadow: 0 2px 4px  #292825; }
+
+.collection-wrapper .bg-collection {
+  height: 29px;
+  margin-top: 20px;
+  background: url("images/pk-odessa/bg-col.png") center center no-repeat; }
+  
+.collection-wrapper .guarantee-text {
+  color: #2BC623;
+  text-align: center;
+  font-size: 18px; }
+  
+.collection-wrapper .guarantee-text::before {
+  content: url(images/pk-odessa/surguch-icon.png);
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
