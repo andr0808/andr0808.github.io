@@ -72,14 +72,14 @@ header .phones p {
   font-size: 20px; }
 
 header .phones::before {
-  content: url(img/phones-icon.jpg);
+  content: url(/gold-coach/img/phones-icon.jpg);
   display: inline-block;
   vertical-align: middle;
   margin-right: 15px; }
 
 #section-1 {
   min-height: 991px;
-  background: url(img/bg-section-1.jpg) right bottom no-repeat;
+  background: url(/gold-coach/img/bg-section-1.jpg) right bottom no-repeat;
   -webkit-background-size: contain;
           background-size: contain;
   padding-top: 150px; }
@@ -215,7 +215,7 @@ header .phones::before {
 
 #section-2 {
   min-height: 800px;
-  background: url(img/bg-section-2.png) center top no-repeat;
+  background: url(/gold-coach/img/bg-section-2.png) center top no-repeat;
   -webkit-background-size: contain;
           background-size: contain; }
 
@@ -358,39 +358,39 @@ header .phones::before {
   left: -110%; }
 
 .potential-result::before {
-  content: url(img/potential-icon.png);
+  content: url(/gold-coach/img/potential-icon.png);
   position: absolute;
   left: 110%;
   z-index: 1; }
 
 .mindfulness-result::before {
-  content: url(img/mindfulness-icon.png);
+  content: url(/gold-coach/img/mindfulness-icon.png);
   position: absolute;
   top: 130%;
   z-index: 1; }
 
 .confidence-result::before {
-  content: url(img/confidence-icon.png);
+  content: url(/gold-coach/img/confidence-icon.png);
   position: absolute;
   right: 110%;
   z-index: 1; }
 
 .stress-result::before {
-  content: url(img/stress-icon.png);
+  content: url(/gold-coach/img/stress-icon.png);
   position: absolute;
   left: 115%;
   bottom: 0%;
   z-index: 1; }
 
 .scale-result::before {
-  content: url(img/scale-icon.png);
+  content: url(/gold-coach/img/scale-icon.png);
   position: absolute;
   bottom: 150%;
   left: 30%;
   z-index: 1; }
 
 .balance-result::before {
-  content: url(img/balance-icon.png);
+  content: url(/gold-coach/img/balance-icon.png);
   position: absolute;
   right: 110%;
   bottom: 0%;
